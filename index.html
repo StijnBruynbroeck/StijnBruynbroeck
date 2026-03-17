@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCT Portfolio | Operator Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="grid-bg"></div>
+    <div class="scanline"></div>
+
+    <main class="container">
+        <header>
+            <div class="logo">Stijn_Bruynbroeck<span class="blink">_</span></div>
+            <button class="status-btn" onclick="openProfile()">SYSTEM ACCESS: <span class="online">GRANTED</span></button>
+        </header>
+
+        <section class="hero">
+            <h1 id="hero-title" data-value="HELLO WORLD">HELLO WORLD</h1>
+            <p class="subtitle">Multimedia & Creative Technologies Student @ Erasmushogeschool Brussel</p>
+            <div class="tags">
+                <span>#UNITY</span>
+                <span>#WEB</span>
+                <span>#OPENXR</span>
+                <span>#C#</span>
+            </div>
+        </section>
+
+        <nav class="pillars">
+            <a href="javascript:void(0)" class="pillar-card" onmouseover="hackEffect(event)" onclick="openCategory('WEB DEV')" data-value="WEB DEV">
+                <div class="number">01</div>
+                <h2>WEB DEV</h2>
+            </a>
+
+            <a href="javascript:void(0)" class="pillar-card" onmouseover="hackEffect(event)" onclick="openCategory('DESIGN')" data-value="DESIGN">
+                <div class="number">02</div>
+                <h2>DESIGN</h2>
+            </a>
+
+            <a href="javascript:void(0)" class="pillar-card" onmouseover="hackEffect(event)" onclick="openCategory('VR / AR')" data-value="VR / AR">
+                <div class="number">03</div>
+                <h2>VR / AR</h2>
+            </a>
+
+            <a href="javascript:void(0)" class="pillar-card" onmouseover="hackEffect(event)" onclick="openCategory('3D ART')" data-value="3D ART">
+                <div class="number">04</div>
+                <h2>3D ART</h2>
+            </a>
+
+            <a href="javascript:void(0)" class="pillar-card" onmouseover="hackEffect(event)" onclick="openCategory('EXPERT LAB')" data-value="EXPERT LAB">
+                <div class="number">05</div>
+                <h2>EXPERT LAB</h2>
+            </a>
+
+            <a href="javascript:void(0)" class="pillar-card warning-mode" onmouseover="hackEffect(event)" onclick="openCategory('SIDE_OPS')" data-value="SIDE_OPS">
+                <div class="number">06</div>
+                <h2>SIDE_OPS</h2>
+                <div class="status-indicator">active_learning</div>
+            </a>
+        </nav>
+    </main>
+
+    <div id="profile-modal" class="modal-overlay" onclick="closeProfile(event)">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>OPERATOR_PROFILE</h3>
+                <button class="close-btn" onclick="closeProfile(event)">[X]</button>
+            </div>
+            
+            <div class="profile-grid">
+                <div class="stat-block">
+                    <h4>DEV_STATS</h4>
+                    <ul>
+                        <li><span class="label">CLASS:</span> Student (MCT)</li>
+                        <li><span class="label">LANGUAGES:</span> NL (Fluent)/ EN /FR </li>
+                        <li><span class="label">SPECIALTY:</span> Unity / OpenXR</li>
+                        <li><span class="label">LOCATION:</span> Brussels, BE</li>
+                    </ul>
+                </div>
+
+                <div class="stat-block tft-block">
+                    <h4>PASSION_METRIC</h4>
+                    <div class="rank-badge">
+                        <span class="rank-icon">❖</span>
+                        <span class="rank-title">MASTER TIER</span>
+                        <span class="rank-game">TFT STRATEGIST</span>
+                    </div>
+                    <p class="fun-fact">
+                        "I treat coding like a game of TFT: adapt to the meta, manage your economy (memory), and pivot when your strategy fails."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="project-panel" class="panel-overlay">
+    <div class="panel-header">
+        <h2 id="panel-title">CATEGORY_NAME</h2>
+        <button class="close-btn" onclick="closePanel()">[ CLOSE_TERMINAL ]</button>
+    </div>
+    <div class="panel-grid" id="project-grid">
+        </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
