@@ -33,7 +33,6 @@ I'm a passionate developer currently learning game development and 3D modeling.
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
 
 ## 📊 Stats
-![GitHub Profile Views](https://komarev.com/ghpvc/?username=StijnBruynbroeck&style=flat&color=blue)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=StijnBruynbroeck&show_icons=true&theme=radical)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=StijnBruynbroeck&theme=radical)
 
