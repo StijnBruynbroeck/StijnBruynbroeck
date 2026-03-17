@@ -34,6 +34,8 @@ I'm a passionate developer currently learning game development and 3D modeling.
 
 ## 📊 Stats
 ![GitHub Profile Views](https://komarev.com/ghpvc/?username=StijnBruynbroeck&style=flat&color=blue)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=StijnBruynbroeck&show_icons=true&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=StijnBruynbroeck&theme=radical)
 
 ---
 *Thanks for checking out my portfolio!*
