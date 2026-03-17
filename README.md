@@ -22,5 +22,18 @@ I'm a passionate developer currently learning game development and 3D modeling.
 ![JavaScript](https://img.shields.io/badge/JavaScript-39.7%25-yellow?style=flat)
 ![HTML](https://img.shields.io/badge/HTML-18.1%25-orange?style=flat)
 
+## 📬 Contact Info
+- 📧 **Email:** stijn.bruynbroeck@student.ehb.be
+- 📱 **Phone:** +32476743007
+
+## 🛠️ Tools I Use
+![Adobe](https://img.shields.io/badge/-Adobe-FF0000?style=flat&logo=adobe)
+![Autodesk Maya](https://img.shields.io/badge/-Maya-0696D7?style=flat&logo=autodesk)
+![Unity](https://img.shields.io/badge/-Unity-000000?style=flat&logo=unity)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
+
+## 📊 Stats
+![GitHub Profile Views](https://komarev.com/ghpvc/?username=StijnBruynbroeck&style=flat&color=blue)
+
 ---
 *Thanks for checking out my portfolio!*
