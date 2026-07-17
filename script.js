@@ -74,8 +74,14 @@ const projectData = {
         
     ],
 
-    "EXPERT LAB": [
-        { type: "image", src: "https://placehold.co/600x400/111/a55eea?text=Research", title: "Research Project X", desc: "Experimental interaction design.", tech: ["Arduino", "Unity"] }
+   "FINAL WORK": [
+        { 
+            type: "video", 
+            src: "JRFxRkw4Q-k", 
+            title: "Final Work: NUI Stealth Game", 
+            desc: "An innovative 3D stealth game built in Unity. Traditional menus have been replaced by a fully voice-controlled Natural User Interface (NUI). Powered by a 100% local AI architecture (Whisper for speech-to-text and Llama 3 via Ollama for semantic logic), the player can survive by transforming into everyday objects to hide from enemies.", 
+            tech: ["Unity", "Ollama", "Whisper.cpp", "Blender"] 
+        }
     ],
     "SIDE_OPS": [
         { 
